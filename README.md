@@ -1,16 +1,63 @@
-# chat_app
+# Scholar Chat
 
-A new Flutter project.
+A real-time chat application built with Flutter and Firebase.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+* User Registration with Firebase Authentication
+* User Login with Firebase Authentication
+* Real-time Messaging using Cloud Firestore
+* Message Ordering by Timestamp
+* Custom Chat Bubbles
+* Form Validation
+* Loading Indicators
+* Reusable Custom Widgets
+* Route Navigation
 
-A few resources to get you started if this is your first Flutter project:
+## Technologies Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* Flutter
+* Firebase Core
+* Firebase Authentication
+* Cloud Firestore
+* Modal Progress HUD
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+lib/
+├── helper/
+├── models/
+├── pages/
+├── widget/
+├── constans.dart
+├── firebase_options.dart
+└── main.dart
+
+## What I Learned
+
+* Firebase Initialization
+* Firebase Authentication
+* Firestore CRUD Operations
+* StreamBuilder
+* Future vs Stream
+* Form Validation
+* State Management Basics
+* Custom Widgets
+* MVC-like Structure
+* Route Navigation
+* Real-time Data Updates
+
+## Future Improvements
+
+* User Profile Pictures
+* Image Sharing
+* Message Status
+* Push Notifications
+* Group Chats
+* Dark Mode
+* Message Search
+
+## Author
+
+Mostafa Sabry
+Flutter Developer
